@@ -1,0 +1,46 @@
+---
+abstract: An extension useful for authors
+author:
+  - 'A. U. Thor <author@example.com>'
+build_requires:
+  Test::More: '0.47'
+configure_requires:
+  ExtUtils::MakeMaker: '6.42'
+conflicts:
+  Foo::Bar: '0'
+distribution_type: module
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.57_05'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Foo-Bar
+no_index:
+  directory:
+    - t
+    - inc
+optional_features:
+  sql_support:
+    description: Provides SQL storage
+    requires:
+      DBI: '1.50'
+      DBD::SQLite: '1.0'
+provides:
+  Foo::Bar:
+    file: lib/Foo/Bar.pm
+    version: '1.23'
+  Foo::Bar::Baz:
+    file: lib/Foo/Bar/Baz.pm
+    version: '1.23_01'
+recommends:
+  Data::Dumper: '0'
+requires:
+  perl: '5.006'
+  Scalar::Util: '1.10'
+resources:
+  bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Foo-Bar
+  homepage: http://example.com/foo-bar/
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/example/foo-bar.git
+version: '1.23'

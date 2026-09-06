@@ -1,0 +1,28 @@
+--- #YAML:1.0
+name: Acme-Old
+version: '0.05'
+abstract: an older distribution
+author:
+  - 'Old Timer <old@example.com>'
+license: gpl
+distribution_type: module
+generated_by: 'Module::Build version 0.2611'
+requires:
+  perl: '5.005'
+  Carp: '0'
+build_requires:
+  Test::More: '0'
+recommends:
+  Time::HiRes: '0'
+resources:
+  homepage: http://example.com/acme-old
+  Repository: http://svn.example.com/acme-old/trunk
+no_index:
+  dir:
+    - t
+    - inc
+  package:
+    - Acme::Old::Private
+meta-spec:
+  version: 1.2
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
