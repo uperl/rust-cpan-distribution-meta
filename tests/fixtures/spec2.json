@@ -1,0 +1,78 @@
+{
+   "abstract" : "Build and install Perl modules",
+   "author" : [
+      "Ken Williams <kwilliams@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.42",
+   "keywords" : [
+      "builder",
+      "installer"
+   ],
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "Module-Build",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ],
+      "package" : [ "DB" ]
+   },
+   "optional_features" : {
+      "domination" : {
+         "description" : "Take over the world",
+         "prereqs" : {
+            "develop" : { "requires" : { "Genius::Evil" : "1.234" } },
+            "runtime" : { "requires" : { "Machine::Weather" : "2.0" } }
+         }
+      }
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : { "ExtUtils::Install" : "0" }
+      },
+      "configure" : {
+         "requires" : { "Module::Build" : "0.42" }
+      },
+      "runtime" : {
+         "recommends" : { "Archive::Tar" : "1.00" },
+         "requires" : {
+            "Cwd" : "0",
+            "File::Spec" : "0.82",
+            "perl" : "5.006"
+         }
+      },
+      "test" : {
+         "requires" : { "Test::More" : "0.49" }
+      }
+   },
+   "provides" : {
+      "Module::Build" : {
+         "file" : "lib/Module/Build.pm",
+         "version" : "0.42"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/Perl-Toolchain-Gang/Module-Build/issues"
+      },
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/Perl-Toolchain-Gang/Module-Build.git",
+         "web" : "https://github.com/Perl-Toolchain-Gang/Module-Build"
+      },
+      "x_MailingList" : "mailto:module-build@perl.org"
+   },
+   "version" : "0.4229",
+   "x_serialization_backend" : "JSON::PP version 4.00"
+}

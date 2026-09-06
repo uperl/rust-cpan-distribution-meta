@@ -1,0 +1,9 @@
+name: Ancient-Dist
+version: '1.00'
+license: perl
+distribution_type: module
+generated_by: 'ExtUtils::MakeMaker version 6.03'
+requires:
+  Test::Harness: '0'
+  perl: '5.00503'
+build_requires: {}

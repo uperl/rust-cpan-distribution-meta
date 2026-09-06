@@ -2,11 +2,14 @@
 name = "cpan-distribution-meta"
 version = "0.1.0"
 edition = "2024"
-description = "Parse CPAN distribution meta files"
+description = "Parse CPAN distribution meta files (META.json / META.yml) in any spec version"
 repository = "https://github.com/uperl/cpan-distribution-meta"
 license = "MIT"
+keywords = ["cpan", "perl", "metadata", "parser"]
+categories = ["parser-implementations"]
 
 [dependencies]
-anyhow = "1.0.104"
-
-
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.151"
+serde_norway = "0.9.42"
+thiserror = "2.0.20"
