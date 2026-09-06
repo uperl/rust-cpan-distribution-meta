@@ -1,6 +1,6 @@
 [package]
 name = "cpan-distribution-meta"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "Parse CPAN distribution meta files (META.json / META.yml) in any spec version"
 repository = "https://github.com/uperl/cpan-distribution-meta"
