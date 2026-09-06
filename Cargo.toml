@@ -1,0 +1,12 @@
+[package]
+name = "cpan-distribution-meta"
+version = "0.1.0"
+edition = "2024"
+description = "Parse CPAN distribution meta files"
+repository = "https://github.com/uperl/cpan-distribution-meta"
+license = "MIT"
+
+[dependencies]
+anyhow = "1.0.104"
+
+
